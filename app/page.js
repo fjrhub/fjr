@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <h1>
-        Test First
+        Test Second
       </h1>
     </div>
   );
