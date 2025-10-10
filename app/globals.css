@@ -24,9 +24,6 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* 🌙 Animasi untuk hero section */
 @keyframes blink {
@@ -60,11 +57,12 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 💅 Scrollbar halus (opsional) */
+/* Hilangkan scrollbar di seluruh halaman */
 ::-webkit-scrollbar {
-  width: 8px;
+  display: none;
 }
-::-webkit-scrollbar-thumb {
-  background: #4f46e5;
-  border-radius: 10px;
+
+html, body {
+  scrollbar-width: none; /* Untuk Firefox */
+  -ms-overflow-style: none; /* Untuk Internet Explorer dan Edge lama */
 }
