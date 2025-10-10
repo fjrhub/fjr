@@ -38,7 +38,7 @@ export default function Hero() {
           src="https://tvregusnqpktmeekhuom.supabase.co/storage/v1/object/public/class%20photo/1.jpg"
           alt="Profile background"
           fill
-          className="object-cover opacity-20 blur-sm"
+          className="object-cover object-center absolute blur-sm opacity-50 select-none pointer-events-none"
         />
       </div>
 
