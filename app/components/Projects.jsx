@@ -5,16 +5,12 @@ import { motion } from "framer-motion";
 export default function Projects() {
   const projects = [
     {
-      title: "FJR Telebot",
+      title: "fjrtelebot",
       desc: "A powerful Telegram bot built with Node.js, supporting multiple APIs.",
     },
     {
-      title: "Fajimelist",
+      title: "fajimelist",
       desc: "A clean and responsive anime list web app powered by Next.js.",
-    },
-    {
-      title: "Smart Lamp Control",
-      desc: "ESP32-based IoT project for controlling lights via local web server.",
     },
   ];
 
@@ -34,7 +30,7 @@ export default function Projects() {
         Projects
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto relative z-10">
+      <div className="grid md:grid-cols-3 gap-4 max-w-6xl mx-auto relative z-10">
         {projects.map((p, i) => (
           <motion.div
             key={i}
